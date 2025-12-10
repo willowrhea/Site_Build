@@ -11,9 +11,11 @@ html, body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end;   /* sticks the door at the bottom */
-  padding-bottom: 12vh;    /* raise it slightly off the literal bottom */
+  align-items: flex-end;
+  padding-bottom: 20vh;   /* was 12vh — raises the door higher */
 }
+
+
 
 /* Door behavior */
 #door {
