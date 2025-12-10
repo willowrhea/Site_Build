@@ -1,1 +1,27 @@
+/* Page background */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: black;
+}
+
+/* Container for the door */
+.landing {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;   /* sticks the door at the bottom */
+  padding-bottom: 12vh;    /* raise it slightly off the literal bottom */
+}
+
+/* Door behavior */
+#door {
+  width: 80px;              /* adjust size as needed */
+  cursor: pointer;
+  image-rendering: pixelated;
+  transform-origin: bottom center;
+  transform: scale(1);
+  transition: transform 0.2s ease-out;
+}
 
